@@ -1,0 +1,9 @@
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\bin\Debug\netstandard2.0\Lunz.Microservice.Common.deps.json
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\bin\Debug\netstandard2.0\Lunz.Microservice.Common.dll
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\bin\Debug\netstandard2.0\Lunz.Microservice.Common.pdb
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.csprojResolveAssemblyReference.cache
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.csproj.CoreCompileInputs.cache
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.AssemblyInfoInputs.cache
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.AssemblyInfo.cs
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.dll
+E:\CSharpWorkSpace\VS2017Space\Lunz#\Lunz_Microservice\src\Lunz.Microservice.Common\obj\Debug\netstandard2.0\Lunz.Microservice.Common.pdb

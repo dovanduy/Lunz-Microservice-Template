@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.0-alpha-0001" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.CommandStack.Domain\Lunz.Microservice.OrderManagement.CommandStack.Domain.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.Models\Lunz.Microservice.OrderManagement.Models.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.QueryStack\Lunz.Microservice.OrderManagement.QueryStack.csproj" />
+  </ItemGroup>
+
+</Project>
