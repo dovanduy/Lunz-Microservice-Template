@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="5.0.1-alpha-0002" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0-rc1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.CommandStack.Domain\Lunz.Microservice.OrderManagement.CommandStack.Domain.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.Contracts\Lunz.Microservice.OrderManagement.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MetricsHttpContextExtensions.cs" />
+    <Compile Remove="Metrics\MetricsExtensions.cs" />
+    <Compile Remove="Metrics\MiddlewareConstants.cs" />
+    <Compile Remove="Metrics\RouteMiddlewareOptions.cs" />
+    <Compile Remove="Metrics\RoutingExtensionMiddleware.cs" />
+    <Compile Remove="Metrics\StringExtensions.cs" />
+    <Compile Remove="MiddlewareExtension.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics.AspNetCore.Core" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Abstractions" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Http" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Network" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Process" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Checks.Sql" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Health.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.4" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0-rc1" />
+  </ItemGroup>
+
+</Project>
