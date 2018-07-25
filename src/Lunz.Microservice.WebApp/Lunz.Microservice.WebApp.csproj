@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Config\ServiceStackExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="htmlpage.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Reporting.InfluxDB" Version="2.0.0" />
+    <PackageReference Include="AutoMapper" Version="7.0.0-alpha-0001" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Consul" Version="0.7.2.4" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="7.6.0-preview1" />
+    <PackageReference Include="Lunz.Configuration" Version="1.0.0.4" />
+    <PackageReference Include="Lunz.Data.NetStandard" Version="1.0.0" />
+    <PackageReference Include="Lunz.Domain.Kernel" Version="1.0.2" />
+    <PackageReference Include="MediatR" Version="5.0.1-alpha-0002" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.0.1-alpha-0002" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0-preview2-final" />
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.5.4" />
+    <PackageReference Include="NSwag.AspNetCore" Version="11.17.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.ActivityStreams\Lunz.Microservice.ActivityStreams.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Common\Lunz.Microservice.Common.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Data\Lunz.Microservice.Data.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Health\Lunz.Microservice.Health.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Mappings\Lunz.Microservice.Mappings.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Metrics\Lunz.Microservice.Metrics.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Notifications\Lunz.Microservice.Notifications.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.Api\Lunz.Microservice.OrderManagement.Api.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.CommandStack.Domain\Lunz.Microservice.OrderManagement.CommandStack.Domain.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.CommandStack\Lunz.Microservice.OrderManagement.CommandStack.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.QueryStack.MySql\Lunz.Microservice.OrderManagement.QueryStack.MySql.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.QueryStack\Lunz.Microservice.OrderManagement.QueryStack.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.Api\Lunz.Microservice.ReferenceData.Api.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.QueryStack.MySql\Lunz.Microservice.ReferenceData.QueryStack.MySql.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.QueryStack\Lunz.Microservice.ReferenceData.QueryStack.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

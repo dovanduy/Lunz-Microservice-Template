@@ -1,0 +1,231 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.WebApp", "Lunz.Microservice.WebApp\Lunz.Microservice.WebApp.csproj", "{752D87CD-A0FF-4B78-B402-05B67B65546F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contexts", "Contexts", "{0D1CC1A6-3F1A-4F21-B2D3-9730013B9645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderManagement", "OrderManagement", "{60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.Models", "Lunz.Microservice.OrderManagement.Models\Lunz.Microservice.OrderManagement.Models.csproj", "{07B74FA3-52C9-4827-9CA1-CE975FE0A710}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.QueryStack", "Lunz.Microservice.OrderManagement.QueryStack\Lunz.Microservice.OrderManagement.QueryStack.csproj", "{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.QueryStack.MySql", "Lunz.Microservice.OrderManagement.QueryStack.MySql\Lunz.Microservice.OrderManagement.QueryStack.MySql.csproj", "{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.Contracts", "Lunz.Microservice.OrderManagement.Contracts\Lunz.Microservice.OrderManagement.Contracts.csproj", "{C542883B-E87E-4486-BA0F-B545D404BAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.CommandStack", "Lunz.Microservice.OrderManagement.CommandStack\Lunz.Microservice.OrderManagement.CommandStack.csproj", "{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8C815C69-09BD-4CBE-AD5C-B1D4508956CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Data", "Lunz.Microservice.Data\Lunz.Microservice.Data.csproj", "{7F55CC88-5EB0-4708-BFA2-2092A90134BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbUpdateTool", "DbUpdateTool", "{3AE9AA7B-B3C4-48E2-A2B7-026116155F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{EB399FC3-CAEA-41DB-B8D4-E5BB6E7323A2}"
+	ProjectSection(SolutionItems) = preProject
+		DbUpdateTool\Order\appsettings.json = DbUpdateTool\Order\appsettings.json
+		DbUpdateTool\Order\DbUpdateTool.bat = DbUpdateTool\Order\DbUpdateTool.bat
+		DbUpdateTool\Order\DbUpdateTool.deps.json = DbUpdateTool\Order\DbUpdateTool.deps.json
+		DbUpdateTool\Order\DbUpdateTool.dll = DbUpdateTool\Order\DbUpdateTool.dll
+		DbUpdateTool\Order\DbUpdateTool.runtimeconfig.json = DbUpdateTool\Order\DbUpdateTool.runtimeconfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql-scripts", "sql-scripts", "{C09C0978-EBD4-45EB-8AD8-F376CBCAB537}"
+	ProjectSection(SolutionItems) = preProject
+		DbUpdateTool\Order\sql-scripts\sql00001-init-database.sql = DbUpdateTool\Order\sql-scripts\sql00001-init-database.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications", "Notifications", "{55AB4712-4CA6-4ECF-ABFF-E1AD902D5E87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceData", "ReferenceData", "{6CBF2CCC-D73F-4BC9-9585-E901DDD9C689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Notifications", "Lunz.Microservice.Notifications\Lunz.Microservice.Notifications.csproj", "{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.CommandStack.Domain", "Lunz.Microservice.OrderManagement.CommandStack.Domain\Lunz.Microservice.OrderManagement.CommandStack.Domain.csproj", "{C52597D2-47BD-44B6-8399-3073806DF487}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.ReferenceData.QueryStack", "Lunz.Microservice.ReferenceData.QueryStack\Lunz.Microservice.ReferenceData.QueryStack.csproj", "{C3C4C70E-9071-444B-9A1F-E20795E45C9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.ReferenceData.Models", "Lunz.Microservice.ReferenceData.Models\Lunz.Microservice.ReferenceData.Models.csproj", "{43E5CB49-654A-4A80-8BB7-6CF63C621231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.ReferenceData.QueryStack.MySql", "Lunz.Microservice.ReferenceData.QueryStack.MySql\Lunz.Microservice.ReferenceData.QueryStack.MySql.csproj", "{6D2C51FF-3662-42ED-A60A-3B49C987CAF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceData", "ReferenceData", "{68EEA2A1-8760-4AD7-976F-AE9C546D276E}"
+	ProjectSection(SolutionItems) = preProject
+		DbUpdateTool\ReferenceData\appsettings.json = DbUpdateTool\ReferenceData\appsettings.json
+		DbUpdateTool\ReferenceData\DbUpdateTool.bat = DbUpdateTool\ReferenceData\DbUpdateTool.bat
+		DbUpdateTool\ReferenceData\DbUpdateTool.deps.json = DbUpdateTool\ReferenceData\DbUpdateTool.deps.json
+		DbUpdateTool\ReferenceData\DbUpdateTool.dll = DbUpdateTool\ReferenceData\DbUpdateTool.dll
+		DbUpdateTool\ReferenceData\DbUpdateTool.runtimeconfig.json = DbUpdateTool\ReferenceData\DbUpdateTool.runtimeconfig.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql-scripts", "sql-scripts", "{E45478D2-524D-4538-A13D-5E9C6E00DDC4}"
+	ProjectSection(SolutionItems) = preProject
+		DbUpdateTool\ReferenceData\sql-scripts\sql00001-init-database.sql = DbUpdateTool\ReferenceData\sql-scripts\sql00001-init-database.sql
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Common", "Lunz.Microservice.Common\Lunz.Microservice.Common.csproj", "{EE234571-A70E-42C9-BA10-22D441D1BC6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Core", "Lunz.Microservice.Core\Lunz.Microservice.Core.csproj", "{85720C0E-2C74-4396-8F00-56E799F140F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Activities", "Activities", "{AAEF610B-9AD7-4EE2-A0D3-0729AD9D3F01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.ActivityStreams", "Lunz.Microservice.ActivityStreams\Lunz.Microservice.ActivityStreams.csproj", "{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.ReferenceData.Api", "Lunz.Microservice.ReferenceData.Api\Lunz.Microservice.ReferenceData.Api.csproj", "{C6F1EEBE-071E-4104-A0C0-96725EDF51DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.OrderManagement.Api", "Lunz.Microservice.OrderManagement.Api\Lunz.Microservice.OrderManagement.Api.csproj", "{BA79DE78-72D3-45F9-BE62-86A066057973}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Mappings", "Lunz.Microservice.Mappings\Lunz.Microservice.Mappings.csproj", "{39682AB9-644E-43EA-BF9E-DAE0175DFDFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Clients", "Lunz.Microservice.Clients\Lunz.Microservice.Clients.csproj", "{C99DFD49-18E0-46DE-86C1-47405AF65037}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Health", "Lunz.Microservice.Health\Lunz.Microservice.Health.csproj", "{5AFAC4AB-11A5-4AB2-B76A-60E031809187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.AspNetCore", "Lunz.Microservice.AspNetCore\Lunz.Microservice.AspNetCore.csproj", "{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunz.Microservice.Metrics", "Lunz.Microservice.Metrics\Lunz.Microservice.Metrics.csproj", "{1F1812CD-7D2B-4D64-BF63-5F9C79C58175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lunz.Microservice.WebTests", "Lunz.Microservice.WebTests\Lunz.Microservice.WebTests.csproj", "{9FEEE5A1-C86E-4270-8F8D-56C8AF2E1C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BE1AB95-1AA6-46E5-A19E-ADEDD367E2B5}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{752D87CD-A0FF-4B78-B402-05B67B65546F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752D87CD-A0FF-4B78-B402-05B67B65546F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752D87CD-A0FF-4B78-B402-05B67B65546F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752D87CD-A0FF-4B78-B402-05B67B65546F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B74FA3-52C9-4827-9CA1-CE975FE0A710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B74FA3-52C9-4827-9CA1-CE975FE0A710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B74FA3-52C9-4827-9CA1-CE975FE0A710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B74FA3-52C9-4827-9CA1-CE975FE0A710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C542883B-E87E-4486-BA0F-B545D404BAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C542883B-E87E-4486-BA0F-B545D404BAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C542883B-E87E-4486-BA0F-B545D404BAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C542883B-E87E-4486-BA0F-B545D404BAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F55CC88-5EB0-4708-BFA2-2092A90134BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F55CC88-5EB0-4708-BFA2-2092A90134BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F55CC88-5EB0-4708-BFA2-2092A90134BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F55CC88-5EB0-4708-BFA2-2092A90134BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52597D2-47BD-44B6-8399-3073806DF487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52597D2-47BD-44B6-8399-3073806DF487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52597D2-47BD-44B6-8399-3073806DF487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52597D2-47BD-44B6-8399-3073806DF487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C4C70E-9071-444B-9A1F-E20795E45C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C4C70E-9071-444B-9A1F-E20795E45C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C4C70E-9071-444B-9A1F-E20795E45C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C4C70E-9071-444B-9A1F-E20795E45C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E5CB49-654A-4A80-8BB7-6CF63C621231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E5CB49-654A-4A80-8BB7-6CF63C621231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E5CB49-654A-4A80-8BB7-6CF63C621231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E5CB49-654A-4A80-8BB7-6CF63C621231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2C51FF-3662-42ED-A60A-3B49C987CAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2C51FF-3662-42ED-A60A-3B49C987CAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2C51FF-3662-42ED-A60A-3B49C987CAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2C51FF-3662-42ED-A60A-3B49C987CAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE234571-A70E-42C9-BA10-22D441D1BC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE234571-A70E-42C9-BA10-22D441D1BC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE234571-A70E-42C9-BA10-22D441D1BC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE234571-A70E-42C9-BA10-22D441D1BC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85720C0E-2C74-4396-8F00-56E799F140F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85720C0E-2C74-4396-8F00-56E799F140F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85720C0E-2C74-4396-8F00-56E799F140F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85720C0E-2C74-4396-8F00-56E799F140F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F1EEBE-071E-4104-A0C0-96725EDF51DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F1EEBE-071E-4104-A0C0-96725EDF51DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F1EEBE-071E-4104-A0C0-96725EDF51DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F1EEBE-071E-4104-A0C0-96725EDF51DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA79DE78-72D3-45F9-BE62-86A066057973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA79DE78-72D3-45F9-BE62-86A066057973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA79DE78-72D3-45F9-BE62-86A066057973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA79DE78-72D3-45F9-BE62-86A066057973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39682AB9-644E-43EA-BF9E-DAE0175DFDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39682AB9-644E-43EA-BF9E-DAE0175DFDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39682AB9-644E-43EA-BF9E-DAE0175DFDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39682AB9-644E-43EA-BF9E-DAE0175DFDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99DFD49-18E0-46DE-86C1-47405AF65037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99DFD49-18E0-46DE-86C1-47405AF65037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99DFD49-18E0-46DE-86C1-47405AF65037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99DFD49-18E0-46DE-86C1-47405AF65037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFAC4AB-11A5-4AB2-B76A-60E031809187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFAC4AB-11A5-4AB2-B76A-60E031809187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFAC4AB-11A5-4AB2-B76A-60E031809187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFAC4AB-11A5-4AB2-B76A-60E031809187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1812CD-7D2B-4D64-BF63-5F9C79C58175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1812CD-7D2B-4D64-BF63-5F9C79C58175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1812CD-7D2B-4D64-BF63-5F9C79C58175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1812CD-7D2B-4D64-BF63-5F9C79C58175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEEE5A1-C86E-4270-8F8D-56C8AF2E1C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEEE5A1-C86E-4270-8F8D-56C8AF2E1C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEEE5A1-C86E-4270-8F8D-56C8AF2E1C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEEE5A1-C86E-4270-8F8D-56C8AF2E1C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60AB28EE-8DC1-4B53-A79E-25F3DC072DF8} = {0D1CC1A6-3F1A-4F21-B2D3-9730013B9645}
+		{07B74FA3-52C9-4827-9CA1-CE975FE0A710} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{ACAFBF6A-FF55-4FCC-ADD1-3CFE176AA3A4} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{736AE6D3-B78B-4F1B-96A1-FBDDAA4A498E} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{C542883B-E87E-4486-BA0F-B545D404BAC7} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{1F6A7B8C-C6E5-4E0C-B988-AC610E55E914} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{7F55CC88-5EB0-4708-BFA2-2092A90134BA} = {8C815C69-09BD-4CBE-AD5C-B1D4508956CA}
+		{EB399FC3-CAEA-41DB-B8D4-E5BB6E7323A2} = {3AE9AA7B-B3C4-48E2-A2B7-026116155F5E}
+		{C09C0978-EBD4-45EB-8AD8-F376CBCAB537} = {EB399FC3-CAEA-41DB-B8D4-E5BB6E7323A2}
+		{55AB4712-4CA6-4ECF-ABFF-E1AD902D5E87} = {0D1CC1A6-3F1A-4F21-B2D3-9730013B9645}
+		{6CBF2CCC-D73F-4BC9-9585-E901DDD9C689} = {0D1CC1A6-3F1A-4F21-B2D3-9730013B9645}
+		{7B5E318E-1F5C-4A14-84F4-38DA0C2FE62B} = {55AB4712-4CA6-4ECF-ABFF-E1AD902D5E87}
+		{C52597D2-47BD-44B6-8399-3073806DF487} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{C3C4C70E-9071-444B-9A1F-E20795E45C9D} = {6CBF2CCC-D73F-4BC9-9585-E901DDD9C689}
+		{43E5CB49-654A-4A80-8BB7-6CF63C621231} = {6CBF2CCC-D73F-4BC9-9585-E901DDD9C689}
+		{6D2C51FF-3662-42ED-A60A-3B49C987CAF2} = {6CBF2CCC-D73F-4BC9-9585-E901DDD9C689}
+		{68EEA2A1-8760-4AD7-976F-AE9C546D276E} = {3AE9AA7B-B3C4-48E2-A2B7-026116155F5E}
+		{E45478D2-524D-4538-A13D-5E9C6E00DDC4} = {68EEA2A1-8760-4AD7-976F-AE9C546D276E}
+		{EE234571-A70E-42C9-BA10-22D441D1BC6B} = {8C815C69-09BD-4CBE-AD5C-B1D4508956CA}
+		{85720C0E-2C74-4396-8F00-56E799F140F2} = {8C815C69-09BD-4CBE-AD5C-B1D4508956CA}
+		{AAEF610B-9AD7-4EE2-A0D3-0729AD9D3F01} = {0D1CC1A6-3F1A-4F21-B2D3-9730013B9645}
+		{DA16EDBE-5BD1-4C17-85BC-7B72BCFC5C65} = {AAEF610B-9AD7-4EE2-A0D3-0729AD9D3F01}
+		{C6F1EEBE-071E-4104-A0C0-96725EDF51DE} = {6CBF2CCC-D73F-4BC9-9585-E901DDD9C689}
+		{BA79DE78-72D3-45F9-BE62-86A066057973} = {60AB28EE-8DC1-4B53-A79E-25F3DC072DF8}
+		{43AA0E4A-BB9F-44B1-9048-868F1F40E9F4} = {8C815C69-09BD-4CBE-AD5C-B1D4508956CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18309F70-9115-4822-AB0C-3A980B129372}
+	EndGlobalSection
+EndGlobal
