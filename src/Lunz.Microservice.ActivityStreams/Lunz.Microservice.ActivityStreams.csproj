@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ActivityProviders\**" />
+    <EmbeddedResource Remove="ActivityProviders\**" />
+    <None Remove="ActivityProviders\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NewId" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.Core\Lunz.Microservice.Core.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.OrderManagement.CommandStack.Domain\Lunz.Microservice.OrderManagement.CommandStack.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
