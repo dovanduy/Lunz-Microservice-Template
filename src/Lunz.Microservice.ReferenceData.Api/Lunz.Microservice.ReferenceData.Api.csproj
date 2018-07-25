@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Lunz.Microservice.ReferenceData.Api.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\Lunz.Microservice.ReferenceData.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.0-alpha-0001" />
+    <PackageReference Include="FluentValidation" Version="7.6.0-preview1" />
+    <PackageReference Include="Lunz.Data.Extensions.Sql" Version="1.0.0.3" />
+    <PackageReference Include="Lunz.Data.NetStandard" Version="1.0.0" />
+    <PackageReference Include="Lunz.Kernel" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="5.0.1-alpha-0002" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0-preview2-final" />
+    <PackageReference Include="NewId" Version="3.0.1" />
+    <PackageReference Include="NSwag.Annotations" Version="11.17.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.AspNetCore\Lunz.Microservice.AspNetCore.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Common\Lunz.Microservice.Common.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.Core\Lunz.Microservice.Core.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.Models\Lunz.Microservice.ReferenceData.Models.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.QueryStack.MySql\Lunz.Microservice.ReferenceData.QueryStack.MySql.csproj" />
+  </ItemGroup>
+
+</Project>

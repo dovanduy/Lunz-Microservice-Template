@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Lunz.Data.NetStandard" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lunz.Microservice.Data\Lunz.Microservice.Data.csproj" />
+    <ProjectReference Include="..\Lunz.Microservice.ReferenceData.QueryStack\Lunz.Microservice.ReferenceData.QueryStack.csproj" />
+  </ItemGroup>
+
+</Project>
